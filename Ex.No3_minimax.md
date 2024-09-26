@@ -1,13 +1,9 @@
 # Ex.No: 3  Implementation of Minimax Search
-### DATE: 12/09/2024                                                                        
-### REGISTER NUMBER : 212222220027
-
+### DATE: 21/02/24                                                                      
+### REGISTER NUMBER : 212221040125
 ### AIM: 
-
 Write a mini-max search algorithm to find the optimal value of MAX Player from the given graph.
-
 ### Algorithm:
-
 1. Start the program
 2. import the math package
 3. Specify the score value of leaf nodes and find the depth of binary tree from leaf nodes.
@@ -20,39 +16,33 @@ Write a mini-max search algorithm to find the optimal value of MAX Player from t
 
 ### Program:
 ```
-import math
-def minimax (curDepth, nodeIndex,
-             maxTurn, scores,
-             targetDepth):
-    
-    if (curDepth == targetDepth):
-        return scores[nodeIndex]
-    if (maxTurn):
-        return max(minimax(curDepth + 1, nodeIndex * 2,
-                    False, scores, targetDepth),
-                   minimax(curDepth + 1, nodeIndex * 2 + 1,
-                    False, scores, targetDepth))
-     
-    else:
-        return min(minimax(curDepth + 1, nodeIndex * 2,
-                     True, scores, targetDepth),
-                   minimax(curDepth + 1, nodeIndex * 2 + 1,
-                     True, scores, targetDepth))
-
-scores = [3, 5, 2, 9, 12, 5, 23, 20]
-treeDepth = math.log(len(scores), 2) 
-print("The optimal value is : ", end = "")
-print(minimax(0, 0, True, scores, treeDepth))
+import math 
+def minimax (curDepth, nodeIndex, maxTurn, scores, targetDepth): 
+if (curDepth == targetDepth): 
+return scores [nodeIndex] 
+if (maxTurn): 
+return max(minimax(curDepth + 1, nodeIndex* 2, False, scores, targetDepth), 
+minimax(curDepth + 1, nodeIndex 2 + 1, 
+False, scores, targetDepth)) 
+Q 
+else: 
+return min(minimax(curDepth + 1, nodeIndex * 2, True, scores, targetDepth), 
+minimax(curDepth + 1, nodeIndex * 2 + 1, 
+True, scores, targetDepth)) 
+math.log(len(scores), 2) # calculate depth of node log 8 (base 2) 
+= 
+3) 
+scores = [3, 5, 2, 9, 12, 5, 23, 20] 
+treeDepth 
+= 
+print("The optimal value is : ", end = "") 
+print(minimax(0, 0, True, scores, treeDepth)) 
 ```
 ### Output:
-
-![Screenshot 2024-09-12 093536](https://github.com/user-attachments/assets/1306f0d7-8a29-4bfd-895c-35b10ab5f905)
+![ai3](https://github.com/user-attachments/assets/60c18a60-534c-4f9f-8afa-11bc7ce869e9)
 
 
 ### Result:
 Thus the optimum value of max player was found using minimax search.
-
-
-
 
 
