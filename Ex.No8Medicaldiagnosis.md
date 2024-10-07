@@ -1,6 +1,6 @@
 # Ex.No: 8  Logic Programming –  Medical Diagnosis Expert System
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE:                                                                          
+### REGISTER NUMBER :
 ### AIM: 
 Write a Prolog program to build a medical Diagnosis Expert System.
 ###  Algorithm:
@@ -14,9 +14,24 @@ Write a Prolog program to build a medical Diagnosis Expert System.
         
 
 ### Program:
+```
+symptoms(mumps, [fever, swollen_glands]).
+symptoms(measles, [cough, sneeze, running_nose]).
+symptoms(common_cold, [headache, sneezing, sore_throat, runny_nose, chills]).
 
+diagnose(Disease, Symptoms) :-
+    symptoms(Disease, DiseaseSymptoms),
+    subset(DiseaseSymptoms, Symptoms).
 
+start :-
+    write('Welcome to the Medical Diagnosis Expert System.'), nl,
+    write('Please enter the symptoms the patient is experiencing: '), nl,
+    write('Available symptoms: [fever, swollen_glands, cough, sneeze, running_nose, headache, sore_throat, chills]'), nl,
+    read(Symptoms),
+    diagnose(Disease, Symptoms),
+    write('The patient might have '), write(Disease), write('.'), nl.
 
+```
 
 
 
@@ -26,6 +41,7 @@ Write a Prolog program to build a medical Diagnosis Expert System.
 
 
 ### Output:
+![image](https://github.com/Vasanth1234567/AI_Lab_2023-24/assets/86919099/6f9becde-04a3-4167-b19f-b067b946275c)
 
 
 
