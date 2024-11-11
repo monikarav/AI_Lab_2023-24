@@ -69,10 +69,25 @@ model.fit(xtrain, ytrain)
 print(model.score(xtest, ytest))
 
 ```
+```
+# prediction
+#features = [type, amount, oldbalanceOrg, newbalanceOrig]
+
+features = np.array([[1, 8900.2, 8990.2, 0.0]])
+print(model.predict(features))
+```
 
 
 ### Output:
-
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 155706.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160117.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160132.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160145.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160200.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160217.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160231.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160247.png"
+"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160256.png"
 
 
 
