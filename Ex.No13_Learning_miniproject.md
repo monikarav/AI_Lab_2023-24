@@ -21,7 +21,8 @@ from sklearn.tree import DecisionTreeClassifier
 ```
 ```
 data = pd.read_csv("../input/online-payment-fraud-detection/onlinefraud.csv")
-print(data.head())'''
+print(data.head())
+'''
 ```
 data.shape
 ```
