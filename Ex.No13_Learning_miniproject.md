@@ -19,19 +19,25 @@ import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 ```
+
 ```
 data = pd.read_csv("../input/online-payment-fraud-detection/onlinefraud.csv")
 print(data.head())
+
 '''
+
 ```
 data.shape
 ```
+
 ```
 print(data.isnull().sum())
 ```
+
 ```
 print(data.type.value_counts())
 ```
+
 ```
 type = data["type"].value_counts()
 transactions = type.index
@@ -39,6 +45,7 @@ quantity = type.values
 figure = px.pie(data, values=quantity, names=transactions, hole = 0.5, title="Distribution of Transaction Type")
 figure.show()
 ```
+
 ```
 # Now let’s have a look at the correlation between the features of the data with the isFraud column
 # Checking correlation
@@ -46,6 +53,7 @@ figure.show()
 correlation = data.corr()
 print(correlation["isFraud"].sort_values(ascending=False))
 ```
+
 ```
 # Now let’s transform the categorical features into numerical. Here we will also transform the values of the isFraud column into 
 # No Fraud and Fraud labels to have a better understanding of the output
@@ -55,12 +63,14 @@ data["type"] = data["type"].map({"CASH_OUT": 1, "PAYMENT": 2, "CASH_IN": 3, "TRA
 data["isFraud"] = data["isFraud"].map({0: "No Fraud", 1: "Fraud"})
 print(data.head())
 ```
+
 ```
 # splitting the data
 
 x = np.array(data[["type", "amount", "oldbalanceOrg", "newbalanceOrig"]])
 y = np.array(data[["isFraud"]])
 ```
+
 ```
 # training a machine learning model
 
@@ -70,13 +80,14 @@ model.fit(xtrain, ytrain)
 print(model.score(xtest, ytest))
 
 ```
+
 ```
 # prediction
 #features = [type, amount, oldbalanceOrg, newbalanceOrig]
 
 features = np.array([[1, 8900.2, 8990.2, 0.0]])
 print(model.predict(features))
-
+```
 
 
 ### Output:
