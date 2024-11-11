@@ -76,7 +76,7 @@ print(model.score(xtest, ytest))
 
 features = np.array([[1, 8900.2, 8990.2, 0.0]])
 print(model.predict(features))
-```
+
 
 
 ### Output:
