@@ -58,18 +58,17 @@ features = np.array([[1, 8900.2, 8990.2, 0.0]])
 print(model.predict(features))
 ```
 
+![Screenshot 2024-11-11 160117](https://github.com/user-attachments/assets/34e40d8f-8823-44cf-b819-24bcae566342)
+![Screenshot 2024-11-11 155706](https://github.com/user-attachments/assets/a066bad4-bb79-490f-b3a8-46795eb4eb94)
+![Screenshot 2024-11-11 160132](https://github.com/user-attachments/assets/cce89510-983f-43da-a7b2-f5f6f05e2f9e)
+![Screenshot 2024-11-11 160145](https://github.com/user-attachments/assets/8de6ff44-9213-4904-9969-0a8f7e3cfc9b)
+![Screenshot 2024-11-11 160200](https://github.com/user-attachments/assets/45204d8a-7b30-4601-bfe1-4173967464a6)
+![Screenshot 2024-11-11 160217](https://github.com/user-attachments/assets/d558703a-cab5-44a3-ad46-2c931b8319d1)
+![Screenshot 2024-11-11 160231](https://github.com/user-attachments/assets/b4365c9c-da25-414c-9d58-240b6087dcca)
+![Screenshot 2024-11-11 160247](https://github.com/user-attachments/assets/52a63151-71b9-46cb-b6b5-4f429c296fc8)
+![Screenshot 2024-11-11 160256](https://github.com/user-attachments/assets/3087d1f1-a032-4b78-82f1-e430b5e5e993)
 
 ### Output:
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 155706.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160117.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160132.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160145.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160200.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160217.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160231.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160247.png"
-"C:\Users\SEC\Pictures\Screenshots\Screenshot 2024-11-11 160256.png"
-
 
 
 
