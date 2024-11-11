@@ -4,12 +4,12 @@
 ### AIM: 
 To develop a machine learning model that accurately detects fraudulent online payment transactions.
 ###  Algorithm:
-##Step 1: Import the necessary libaries
-##Step 2 : Import the dataset
-##Step 3: preprocess the Dataset,remove all the null values and replace it with mean
-##Step 4: split the training and testing dataset
-##Step 5: Train the model with DesicionTree Classifier
-##Step 6: Find out the accuracy and increase it if possibleby increasing the number of decisiontree
+## Step 1: Import the necessary libaries
+## Step 2 : Import the dataset
+## Step 3: preprocess the Dataset,remove all the null values and replace it with mean
+## Step 4: split the training and testing dataset
+## Step 5: Train the model with DesicionTree Classifier
+## Step 6: Find out the accuracy and increase it if possibleby increasing the number of decisiontree
 
 ### Program:
 ```
