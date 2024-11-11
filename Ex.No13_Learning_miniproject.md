@@ -58,6 +58,8 @@ features = np.array([[1, 8900.2, 8990.2, 0.0]])
 print(model.predict(features))
 ```
 
+### Output:
+
 ![Screenshot 2024-11-11 160117](https://github.com/user-attachments/assets/34e40d8f-8823-44cf-b819-24bcae566342)
 ![Screenshot 2024-11-11 155706](https://github.com/user-attachments/assets/a066bad4-bb79-490f-b3a8-46795eb4eb94)
 ![Screenshot 2024-11-11 160132](https://github.com/user-attachments/assets/cce89510-983f-43da-a7b2-f5f6f05e2f9e)
@@ -68,7 +70,7 @@ print(model.predict(features))
 ![Screenshot 2024-11-11 160247](https://github.com/user-attachments/assets/52a63151-71b9-46cb-b6b5-4f429c296fc8)
 ![Screenshot 2024-11-11 160256](https://github.com/user-attachments/assets/3087d1f1-a032-4b78-82f1-e430b5e5e993)
 
-### Output:
+
 
 
 
