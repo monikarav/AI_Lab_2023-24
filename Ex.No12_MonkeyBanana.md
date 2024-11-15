@@ -1,4 +1,4 @@
-# Ex.No: 9  Planning –  Monkey Banana Problem
+# Ex.No: 12  Planning –  Monkey Banana Problem
 ### DATE:                                                                            
 ### REGISTER NUMBER : 212222220027
 ### AIM: 
