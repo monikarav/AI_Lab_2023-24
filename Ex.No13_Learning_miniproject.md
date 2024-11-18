@@ -58,6 +58,7 @@ features = np.array([[1, 8900.2, 8990.2, 0.0]])
 print(model.predict(features))
 ```
 
+
 ### Output:
 
 ![Screenshot 2024-11-11 160117](https://github.com/user-attachments/assets/34e40d8f-8823-44cf-b819-24bcae566342)
